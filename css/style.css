@@ -1,0 +1,25 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px; 
+    background-color: rgb(82, 195, 230);
+}
+
+.container-texto {
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom:20px;
+}
+
+.container-image{
+    display: flex;
+    gap: 20px;
+}
+
+.wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
